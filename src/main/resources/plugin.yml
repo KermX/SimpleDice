@@ -1,0 +1,10 @@
+name: SimpleDice
+version: '${project.version}'
+main: me.kermx.simpledice.SimpleDice
+api-version: 1.17
+commands:
+  roll:
+    description: Roll Dice
+    usage: /roll <sides> <amount>
+    permission: simpledice.use
+    permission-message: You don't have permission to do this command!
